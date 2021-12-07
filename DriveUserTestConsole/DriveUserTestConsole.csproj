@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.55.0.2502" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DriveUse">
+      <HintPath>..\..\DriveUse\DriveUse\bin\Debug\netstandard2.0\DriveUse.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
